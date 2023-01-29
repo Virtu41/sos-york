@@ -24,7 +24,7 @@ def searching():
               [sg.Button('Show all', tooltip = "Shows all services")],
               [sg.Button('Exit')],  # button to exit
               [sg.Text(f"Searches for {values[0]}: {count}")],  # counts amount of results appeared
-              [sg.Multiline(text, size=(int(WIDTH / 10), int(HEIGHT / 30)), no_scrollbar=False, horizontal_scroll=True,
+              [sg.Multiline(text, size=(int(WIDTH / 10), int(HEIGHT / 50)), no_scrollbar=False, horizontal_scroll=True,
                         visible=True)]  # used to create table and horizontal and vertical scrollbar
           ]
     window = sg.Window('SOS York', layout, finalize=True)  # change window display
